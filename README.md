@@ -16,10 +16,10 @@ This is a simple Python tool that uses OpenAI’s GPT-4 to generate structured, 
 ---
 
 # How to Run
-git clone https://github.com/sharonbhe/LLMForPostmortem
-cd LLMForPostmortem
-python3 -m venv .venv
-source .venv/bin/activate
-pip install openai
-export OPENAI_API_KEY=your_key_here
-python postmortem_generator.py
+git clone https://github.com/sharonbhe/LLMForPostmortem  
+cd LLMForPostmortem  
+python3 -m venv MyEnv  
+source MyEnv/bin/activate  
+pip install openai  (only fo rthe first time)  
+export OPENAI_API_KEY=your_key_here  
+python postmortem_generator.py  
